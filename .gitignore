@@ -1,0 +1,23 @@
+# AWS credentials — NEVER commit these!
+.aws/
+*.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# SAM build artifacts
+.aws-sam/
+samconfig.toml
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
